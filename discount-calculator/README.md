@@ -26,9 +26,6 @@ Application will be available in the below URL, if 8099 port is already used cha
 Sample request payload is available in
 >src\main\resources\sample-payload
 
-##SonarCube Dashboard
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
-
 ## Junit & Test Coverage
 
 Use the the below command to run the unit test cases from command-line.
@@ -36,4 +33,9 @@ Use the the below command to run the unit test cases from command-line.
 mvn clean test
 ```
 Coverage detail will be available in target/site/jacoco/index.html
+
+
+##SonarCube Dashboard
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+
 
