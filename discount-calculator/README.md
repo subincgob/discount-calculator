@@ -35,7 +35,7 @@ mvn clean test
 Coverage detail will be available in target/site/jacoco/index.html
 
 
-##SonarCube Dashboard
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+## SonarCube Dashboard
+![alt text](https://github.com/subincgob/discount-calculator/blob/master/discount-calculator/sonar.PNG)
 
 
