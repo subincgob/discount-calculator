@@ -8,8 +8,11 @@ import com.competency.discountcalculator.model.enums.UserType;
 import com.competency.discountcalculator.model.users.Affiliate;
 import com.competency.discountcalculator.model.users.Customer;
 import com.competency.discountcalculator.model.users.Employee;
+import com.competency.discountcalculator.service.DiscountService;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -19,6 +22,9 @@ import java.util.List;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class BaseTest {
+
+    @Autowired
+    private DiscountService discountService;
 
     protected List<Item> getItems() {
         List<Item> billItems=new ArrayList<>();
@@ -74,7 +80,7 @@ public class BaseTest {
     }
     @Test
     public void sample(){
-
+        Assert.assertNotNull(discountService);
     }
 
 }
