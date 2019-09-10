@@ -33,4 +33,4 @@ Coverage detail will be available in target/site/jacoco/index.html
 #### Request Payload
 
 Sample request payload is available in
->discount-calculator\src\main\resources\sample-payload
+>src\main\resources\sample-payload
