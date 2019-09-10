@@ -21,6 +21,10 @@ mvn spring-boot:run
 Application will be available in the below URL, if 8099 port is already used change the 'server.port' property in the 'application.properties' file and re-run the project.
 
 [http://localhost:8099/swagger-ui.html](http://localhost:8099/swagger-ui.html)
+#### Request Payload
+
+Sample request payload is available in
+>src\main\resources\sample-payload
 
 ## Junit & Test Coverage
 
@@ -30,7 +34,3 @@ mvn clean test
 ```
 Coverage detail will be available in target/site/jacoco/index.html
 
-#### Request Payload
-
-Sample request payload is available in
->src\main\resources\sample-payload
