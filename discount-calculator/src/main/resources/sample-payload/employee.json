@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "billItems": [
+      {
+        "name": "Pen",
+        "price": 10,
+        "quantity": 5,
+        "type": "Stationery"
+      },
+      {
+        "name": "Pen",
+        "price": 10,
+        "quantity": 5,
+        "type": "Groceries"
+      }
+    ],
+    "totalAmount": 0
+  },
+  "person": {
+    "email": "string",
+    "gender": "string",
+    "mobileNumber": "string",
+    "name": "string"
+  },
+  "userType": "Employee"
+}

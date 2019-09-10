@@ -1,0 +1,21 @@
+{
+  "bill": {
+    "billItems": [
+      {
+        "name": "Pen",
+        "price": 10,
+        "quantity": 5,
+        "type": "Stationery"
+      }
+    ],
+    "totalAmount": 0
+  },
+  "person": {
+    "joiningDate":"23/09/1991",
+    "email": "string",
+    "gender": "string",
+    "mobileNumber": "string",
+    "name": "string"
+  },
+  "userType": "Customer"
+}
