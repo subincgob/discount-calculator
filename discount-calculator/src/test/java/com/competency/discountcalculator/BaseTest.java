@@ -8,11 +8,16 @@ import com.competency.discountcalculator.model.enums.UserType;
 import com.competency.discountcalculator.model.users.Affiliate;
 import com.competency.discountcalculator.model.users.Customer;
 import com.competency.discountcalculator.model.users.Employee;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
+@RunWith(SpringRunner.class)
+@SpringBootTest
 public class BaseTest {
 
     protected List<Item> getItems() {
@@ -66,6 +71,10 @@ public class BaseTest {
                                 .build()
                 )
                 .build();
+    }
+    @Test
+    public void sample(){
+
     }
 
 }
