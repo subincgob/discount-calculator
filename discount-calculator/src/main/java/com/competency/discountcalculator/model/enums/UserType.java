@@ -1,8 +1,6 @@
 package com.competency.discountcalculator.model.enums;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
 
 /**
  * This enum describes different types of items.

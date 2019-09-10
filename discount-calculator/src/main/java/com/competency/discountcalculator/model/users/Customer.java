@@ -3,11 +3,8 @@ package com.competency.discountcalculator.model.users;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -38,7 +35,7 @@ public class Customer extends Person{
         }
         return 0;
     }
-    public  int getNoOfYearsSinceJoiningDate() {
+    private   int getNoOfYearsSinceJoiningDate() {
         try {
             Calendar a = getCalendar(getJoiningDate());
             Calendar now = Calendar.getInstance();
@@ -53,7 +50,7 @@ public class Customer extends Person{
         }
     }
 
-    public  Calendar getCalendar(Date date) {
+    private   Calendar getCalendar(Date date) {
         Calendar cal = Calendar.getInstance(Locale.US);
         cal.setTime(date);
         return cal;

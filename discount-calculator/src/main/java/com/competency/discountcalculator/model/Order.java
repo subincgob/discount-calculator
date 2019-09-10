@@ -1,9 +1,9 @@
 package com.competency.discountcalculator.model;
 
 import com.competency.discountcalculator.model.users.Affiliate;
+import com.competency.discountcalculator.model.users.Customer;
 import com.competency.discountcalculator.model.users.Employee;
 import com.competency.discountcalculator.model.users.Person;
-import com.competency.discountcalculator.model.users.Customer;
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import io.swagger.annotations.ApiModel;

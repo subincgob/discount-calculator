@@ -8,9 +8,9 @@
         "type": "Stationery"
       },
       {
-        "name": "Pen",
+        "name": "Cucumber",
         "price": 10,
-        "quantity": 5,
+        "quantity": 6,
         "type": "Groceries"
       }
     ],

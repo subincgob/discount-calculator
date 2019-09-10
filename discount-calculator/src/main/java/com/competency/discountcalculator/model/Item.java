@@ -1,6 +1,5 @@
 package com.competency.discountcalculator.model;
 
-import com.competency.discountcalculator.model.enums.ItemType;
 import lombok.*;
 
 /**

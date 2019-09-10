@@ -1,6 +1,7 @@
 package com.competency.discountcalculator.model;
 
-import lombok.*;
+import lombok.Builder;
+import lombok.Getter;
 
 /**
  * This class holds the response detail after discount.

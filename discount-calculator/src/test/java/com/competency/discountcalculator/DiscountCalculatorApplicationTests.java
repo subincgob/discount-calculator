@@ -1,14 +1,8 @@
 package com.competency.discountcalculator;
 
-import com.competency.discountcalculator.model.Bill;
 import com.competency.discountcalculator.model.DiscountResponse;
 import com.competency.discountcalculator.model.Item;
 import com.competency.discountcalculator.model.Order;
-import com.competency.discountcalculator.model.enums.ItemType;
-import com.competency.discountcalculator.model.enums.UserType;
-import com.competency.discountcalculator.model.users.Affiliate;
-import com.competency.discountcalculator.model.users.Customer;
-import com.competency.discountcalculator.model.users.Employee;
 import com.competency.discountcalculator.service.DiscountService;
 import org.junit.Assert;
 import org.junit.Test;
@@ -18,8 +12,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
-import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 @RunWith(SpringRunner.class)
@@ -27,7 +19,7 @@ import java.util.List;
 public class DiscountCalculatorApplicationTests extends BaseTest{
 
 	@Autowired
-	DiscountService discountService;
+	private DiscountService discountService;
 
 	private MockMvc mockMvc;
 
