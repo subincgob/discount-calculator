@@ -42,13 +42,13 @@ public class DiscountServiceImpl implements DiscountService {
     }
 
     private double calculateDiscount(double discountEligibleAmt,float discountPercentage){
-        return (double)(discountEligibleAmt*discountPercentage/100);
+        return (discountEligibleAmt*discountPercentage/100);
     }
 
     /**
      * Flat discount calculation. 5$ on every 100$ discount
-     * @param totalAmt
-     * @return dicounted amount
+     * @param totalAmt Amount to avail discount;
+     * @return discounted amount
      */
     private double calculateDiscount(double totalAmt){
         return  Math.floor((totalAmt/100))*5;
