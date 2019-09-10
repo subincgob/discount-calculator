@@ -54,3 +54,4 @@ public class DiscountServiceImpl implements DiscountService {
         return  Math.floor((totalAmt/100))*5;
     }
 }
+
