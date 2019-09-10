@@ -81,7 +81,7 @@
                 <artifactId>lint-maven-plugin</artifactId>
                 <version>0.0.8</version>
             </plugin>
-            <plugin>
+           <!-- <plugin>
                 <groupId>org.sonarsource.scanner.maven</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
                 <version>3.3.0.603</version>
@@ -93,7 +93,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
 
