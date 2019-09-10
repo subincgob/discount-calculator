@@ -32,7 +32,7 @@ Use the the below command to run the unit test cases from command-line.
 ```python
 mvn clean test
 ```
-Coverage detail will be available in target/site/jacoco/index.html
+Coverage detail will be available in **target/site/jacoco/index.html**
 
 
 ## SonarCube Dashboard
